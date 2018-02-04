@@ -1,7 +1,10 @@
+// package dosyadaki ilk ifade deger olmak zorundadýr
 package muhammetaslan.javase.DeclarationAndAccessControl;
 
+// import ifadeleri islermelri package ile class arasýnda olmalýdýr
 import java.awt.List;
 
+// .java dosyasýnda public olan class simi ile dosya isme ayný olmalýdýr.
 public class Declaration {
 
 	int temp = 0;
