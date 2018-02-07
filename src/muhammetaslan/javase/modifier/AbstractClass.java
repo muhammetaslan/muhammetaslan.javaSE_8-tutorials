@@ -1,7 +1,13 @@
 package muhammetaslan.javase.modifier;
 
+//bir sinif eger abstract olarak tanimlanmissa bu durumda bu sinifin kalitilacagi anlamina gelmektedir.
+//final ise kalitima engeldir!
+//abstract anahtar kelimesi class ve metot taniminda kullanilabilir, degiskenler icin boyle bir sey yoktur.
+//abstract classlardan nesne/obje olusturamayiz. new AbsClass() derleme hatasi verir!!
+
 //egerki abstract methodlar tanýmlamak istiyorsak onlarýn bulundugu class da abstract olmalýdýr.
 //eger ki bir class abstract bir class ý extend ederse içindeki abstract metodlarý override etmemizi isteyecektir
+
 public abstract class AbstractClass {
 	
 	/*
