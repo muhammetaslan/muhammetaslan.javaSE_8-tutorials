@@ -4,7 +4,7 @@ public class InterfaceTest {
 
 	public static void main(String[] args) {
 		
-		A a_obj = new A();
+		C a_obj = new C();
 		B b_obj = new B();
 		
 		a_obj.run();
@@ -14,7 +14,7 @@ public class InterfaceTest {
 
 
 // Javada runnable diye bir arabirim vardýr 
-class A implements Runnable{
+class C implements Runnable{
 
 	@Override
 	public void run() {
